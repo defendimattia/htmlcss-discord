@@ -54,41 +54,18 @@
     padding: 50px 0;
 }
 
-.bg-white {
-    background-color: #ffffff;
-}
-
 .bg-gray {
     background-color: #d3d3d3;
-}
-
-.bg-pink {
-    background-color: #ffc0cb;
-}
-
-.bg-green {
-    background-color: #228b22;
 }
 
 .bg-black {
     background-color: #23272a;
 }
 
-.bg-green {
-    background-color: #20b2aa;
-}
-
-.bg-lightteal {
-    background-color: #7fffd4;
-}
-
 .txt-center {
     text-align: center;
 }
 
-.debugger {
-    height: 500px;
-}
 
 /*****************/
 /**** HEADER *****/
