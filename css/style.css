@@ -16,8 +16,22 @@
 /**** GENERAL *****/
 /******************/
 
+h2 {
+    font-size: 50px;
+    line-height: 95px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 40px;
+}
+
 .button {
     all: unset;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 50px;
 }
 
 .border {
@@ -31,7 +45,6 @@
 .section {
     padding: 50px 0;
 }
-
 
 .bg-white {
     background-color: #ffffff;
@@ -61,6 +74,10 @@
     background-color: #7fffd4;
 }
 
+.txt-center {
+    text-align: center;
+}
+
 .debugger {
     height: 500px;
 }
@@ -80,7 +97,7 @@ header {
     display: flex;
     max-width: 1200px;
     margin: 0 auto 10px auto;
-
+    align-items: center;
 }
 
 .header-nav > div {
@@ -111,7 +128,7 @@ header {
 
 .header-box {
     max-width: 900px;
-    margin: 0 auto;
+    padding-top: 125px;
 }
 
 
