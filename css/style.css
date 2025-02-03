@@ -34,6 +34,15 @@
     border-radius: 50px;
 }
 
+.blue-button {
+    all: unset;
+    padding: 10px 15px;
+    background-color: #7288da;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+
 .border {
     border: 2px dashed #000000;
 }
@@ -167,6 +176,15 @@ header {
     align-items: self-start;
 }
 
+.double-box-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .box1 {
     flex-basis: 60%;
 }
@@ -187,6 +205,12 @@ main h2 {
 main p {
     padding-top: 20px;
     line-height: 30px;
+}
+
+img + p {
+    padding: 0 0 50px;
+    font-size: 25px;
+    line-height: 0;
 }
 
 /*****************/
