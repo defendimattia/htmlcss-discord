@@ -236,10 +236,10 @@ img + p {
 }
 
 .footer-down-section {
-    padding-top: 35px;
-    border-top: #d3d3d3 solid 2px;
-    border-bottom: #d3d3d3 solid 2px;
-    padding-top: 50px;
+    max-width: 1200px;
+    padding-top: 10px;
+    border-top: #7288da solid 2px;
+    padding-bottom: 50px;
 }
 
 .footer-box-section {
