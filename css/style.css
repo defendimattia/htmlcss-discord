@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 
@@ -16,15 +17,6 @@
 /**** GENERAL *****/
 /******************/
 
-h2 {
-    font-size: 50px;
-    line-height: 95px;
-}
-
-p {
-    font-size: 25px;
-    line-height: 40px;
-}
 
 .white-button {
     all: unset;
@@ -95,6 +87,16 @@ p {
 /*****************/
 
 
+header h2 {
+    font-size: 50px;
+    line-height: 95px;
+}
+
+header p {
+    font-size: 25px;
+    line-height: 40px;
+}
+
 header {
     background-color: #255ee9;
     padding-top: 10px;
@@ -162,7 +164,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-
+    align-items: center;
 }
 
 .box1 {
@@ -177,6 +179,15 @@ header {
 
 .inverted {
     flex-direction: row-reverse;
+}
+
+main h2 {
+    font-size: 50px;
+}
+
+main p {
+    padding-top: 20px;
+    line-height: 30px;
 }
 
 /*****************/
