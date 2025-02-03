@@ -164,7 +164,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: self-start;
 }
 
 .box1 {
@@ -175,6 +175,7 @@ header {
 .box2 {
     background-color: #ffc0cb;
     flex-basis: 40%;
+    padding-top: 20px;
 }
 
 .inverted {
