@@ -26,11 +26,19 @@ p {
     line-height: 40px;
 }
 
-.button {
+.white-button {
     all: unset;
     padding: 10px 15px;
     background-color: #ffffff;
     color: #000000;
+    border-radius: 50px;
+}
+
+.black-button {
+    all: unset;
+    padding: 10px 15px;
+    background-color: #23272a;
+    color: #ffffff;
     border-radius: 50px;
 }
 
@@ -131,12 +139,18 @@ header {
     padding-top: 125px;
 }
 
-
 .jumbo {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+}
+
+.buttons-header {
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    gap: 25px;
 }
 
 /*****************/
