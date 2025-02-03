@@ -3,9 +3,8 @@
 /***************/
 
 
-* {
+*:not(img ,p){
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0 auto;
@@ -207,7 +206,7 @@ main p {
     line-height: 30px;
 }
 
-img + p {
+main img + p {
     padding: 0 0 50px;
     font-size: 25px;
     line-height: 0;
@@ -217,13 +216,23 @@ img + p {
 /***** FOOTER ****/
 /*****************/
 
+footer h2 {
+    font-size: 50px;
+    color: #7288da;
+    padding-bottom: 30px;;
+}
+
+footer p, footer li {
+    color: #ffffff;
+}
+
 .footer-upper-section {
     padding: 5px 0 50px 0;
 }
 
 .footer-box1 {
-    background-color: #ffc0cb;
     flex-basis: 30%;
+    padding-top: 60px;
 }
 
 .footer-box2 {
@@ -261,4 +270,27 @@ img + p {
     border: #000000 dashed 2px;
     padding: 5px;
     background-color: #ffc0cb;
+}
+
+footer .lang img {
+    height: 20px;
+    padding: 3px;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.icons {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    font-size: 30px;
+    padding: 3px;
+}
+
+li {
+    margin: 0;
 }
