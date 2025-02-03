@@ -238,6 +238,7 @@ footer p, footer li {
 .footer-box2 {
     flex-basis: 70%;
     display: flex;
+    padding-top: 60px;
 }
 
 .inside-box {
@@ -283,7 +284,7 @@ footer .lang img {
     margin-bottom: 25px;
 }
 
-.icons {
+.icons-list {
     display: flex;
     list-style-type: none;
     gap: 25px;
@@ -291,6 +292,19 @@ footer .lang img {
     padding: 3px;
 }
 
+.lists-box2 {
+    list-style-type: none;
+}
+
+.list-title {
+    color: #7288da;
+}
+
 li {
     margin: 0;
+}
+
+.lists-box2 li {
+    margin-bottom: 10px;
+
 }
