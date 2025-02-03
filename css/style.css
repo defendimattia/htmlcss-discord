@@ -168,12 +168,10 @@ header {
 }
 
 .box1 {
-    background-color: #1e90ff;
     flex-basis: 60%;
 }
 
 .box2 {
-    background-color: #ffc0cb;
     flex-basis: 40%;
     padding-top: 20px;
 }
