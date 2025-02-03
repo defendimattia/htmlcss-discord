@@ -1,0 +1,189 @@
+/***************/
+/**** RESET ****/
+/***************/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/******************/
+/**** GENERAL *****/
+/******************/
+
+
+.border {
+    border: 2px dashed #000000;
+}
+
+.border-w {
+    border: 1px dashed #ffffff;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.bg-blue {
+    background-color: #00008b;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.bg-pink {
+    background-color: #ffc0cb;
+}
+
+.bg-green {
+    background-color: #228b22;
+}
+
+.bg-black {
+    background-color: #23272a;
+}
+
+.bg-green {
+    background-color: #20b2aa;
+}
+
+.bg-lightteal {
+    background-color: #7fffd4;
+}
+
+.debugger {
+    height: 500px;
+}
+
+/*****************/
+/**** HEADER *****/
+/*****************/
+
+
+.header-bg {
+    background-color: #add8e6;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.header-nav {
+    display: flex;
+    background-color: #daa520;
+    max-width: 1200px;
+    margin: 0 auto 10px auto;
+
+}
+
+.header-nav > div {
+    padding: 5px;
+}
+
+.header-logo {
+    flex-grow: 1;
+}
+
+.header-link {
+    flex-grow: 3;
+    justify-content: center;
+
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header-login {
+    text-align: end;
+    flex-grow: 1;
+}
+
+.header-box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*****************/
+/****** MAIN *****/
+/*****************/
+
+
+.box-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.box1 {
+    background-color: #1e90ff;
+    flex-basis: 60%;
+}
+
+.box2 {
+    background-color: #ffc0cb;
+    flex-basis: 40%;
+}
+
+.inverted {
+    flex-direction: row-reverse;
+}
+
+/*****************/
+/***** FOOTER ****/
+/*****************/
+
+.footer-upper-section {
+    padding: 5px 0 50px 0;
+}
+
+.footer-box1 {
+    background-color: #ffc0cb;
+    flex-basis: 30%;
+}
+
+.footer-box2 {
+    flex-basis: 70%;
+    display: flex;
+}
+
+.inside-box {
+    flex-basis: 25%;
+}
+
+.footer-down-section {
+    padding-top: 35px;
+    border-top: #d3d3d3 solid 2px;
+    border-bottom: #d3d3d3 solid 2px;
+    padding-top: 50px;
+}
+
+.footer-box-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-logo {
+    padding: 5px;
+}
+
+.footer-button {
+    all: unset;
+    border: #000000 dashed 2px;
+    padding: 5px;
+    background-color: #ffc0cb;
+}
